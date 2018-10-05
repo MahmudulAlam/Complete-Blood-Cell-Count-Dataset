@@ -70,5 +70,5 @@ N.B. Rectangular bounding boxes are converted to circular bounding boxes for rep
   . . . . . . . . 
   . . . . . . . . Rest of the platelets
   . . . . . . . . 
-  <annotation>
+  </annotation>
 ```

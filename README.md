@@ -15,7 +15,7 @@ N.B. Rectangular bounding boxes are converted to circular bounding boxes for rep
 ### Annotation Format
 
 ```
-<annotation>
+ <annotation>
 	<folder>JPEGImages</folder>
 	<filename>BloodImage_00395.jpg</filename>
 	<path>/home/pi/detection_dataset/JPEGImages/BloodImage_00395.jpg</path>
@@ -40,10 +40,10 @@ N.B. Rectangular bounding boxes are converted to circular bounding boxes for rep
 			<ymax>209</ymax>
 		</bndbox>
 	</object>
-	<object>
   . . . . . . . . 
   . . . . . . . . Rest of the RBC
   . . . . . . . . 
+ 	<object>
 		<name>WBC</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
@@ -67,8 +67,8 @@ N.B. Rectangular bounding boxes are converted to circular bounding boxes for rep
 			<ymax>268</ymax>
 		</bndbox>
 	</object>
-	<object>
   . . . . . . . . 
   . . . . . . . . Rest of the platelets
   . . . . . . . . 
+  <annotation>
 ```

@@ -1,10 +1,19 @@
-## Complete Blood Count (CBC) Dataset
-The [```complete blood count (CBC)```](https://mahmudulalam.github.io/Complete-Blood-Cell-Count-Dataset/) dataset contains 360 blood smear images along with their annotation files splitting into ```Training```, ```Testing```, and ```Validation``` sets. The training folder contains 300 images with annotations. The testing and validation folder both contain 60 images with annotations. We have done some modification over the [```original dataset```](https://github.com/Shenggan/BCCD_Dataset/tree/master/BCCD) to prepare this CBC dataset where some of the image annotation files contain very low red blood cells (RBCs) than actual and one annotation file does not include any RBC at all although the cell smear image contains RBCs. So, we clear up all the fallacious files and split the dataset into three parts. Among the 360 smear images, first 300 blood cell images with annotations are used as the training set and the rest of the 60 images with annotations are used as the testing set. Due to the shortage of the data, a subset of the training set is used to prepare validation set which contains 60 images with annotations.
+<h2 align="center">Complete Blood Count (CBC) Dataset</h2>
 
-[![Download](https://img.shields.io/badge/download-dataset-ff69b4.svg?style=flat)](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset/archive/master.zip)
+[![GitHub stars](https://img.shields.io/github/stars/MahmudulAlam/Complete-Blood-Cell-Count-Dataset)](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/MahmudulAlam/Complete-Blood-Cell-Count-Dataset)](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset/network)
+[![GitHub issues](https://img.shields.io/github/issues/MahmudulAlam/Complete-Blood-Cell-Count-Dataset)](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset/issues)
+[![GitHub license](https://img.shields.io/github/license/MahmudulAlam/Complete-Blood-Cell-Count-Dataset)](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset/blob/master/LICENSE)
+
+The [```complete blood count (CBC)```](https://mahmudulalam.github.io/Complete-Blood-Cell-Count-Dataset/) dataset contains 360 blood smear images along with their annotation files splitting into ```Training```, ```Testing```, and ```Validation``` sets. The training folder contains 300 images with annotations. The testing and validation folder both contain 60 images with annotations. We have done some modification over the [```original dataset```](https://github.com/Shenggan/BCCD_Dataset/tree/master/BCCD) to prepare this CBC dataset where some of the image annotation files contain very low red blood cells (RBCs) than actual and one annotation file does not include any RBC at all although the cell smear image contains RBCs. So, we clear up all the fallacious files and split the dataset into three parts. Among the 360 smear images, 300 blood cell images with annotations are used as the training set first, and then the rest of the 60 images with annotations are used as the testing set. Due to the shortage of the data, a subset of the training set is used to prepare the validation set which contains 60 images with annotations.
+
+[![Download](https://img.shields.io/badge/download-dataset-f20a0a.svg?longCache=true&style=flat)](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset/archive/master.zip)
 
 ## Paper 
-The dataset is modified and prepared for this [```paper```](http://ietdl.org/t/kmgztb) for [```automatic identification and counting of blood cells```]( https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells). If you use this dataset, please cite this paper: 
+[![Paper](https://img.shields.io/badge/paper-IeeeXplore-blue.svg?longCache=true&style=flat)][1]
+[![Paper](https://img.shields.io/badge/paper-IETDigiLib-830ceb.svg?longCache=true&style=flat)][2]
+
+The dataset is modified and prepared for this [```paper```](http://ietdl.org/t/kmgztb) for [```automatic identification and counting of blood cells```]( https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells):link:. If you use this dataset, please cite this paper: 
 
 ```
 @article{alam2019machine,
@@ -24,9 +33,10 @@ The dataset is modified and prepared for this [```paper```](http://ietdl.org/t/k
 ### Image 
 Each image is resized to ```640 x 480``` resolution. 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/37298971/46539603-c77ab900-c8d8-11e8-9e48-e6c054f8af3b.jpg" width="480">
+  <img src="https://user-images.githubusercontent.com/37298971/46539603-c77ab900-c8d8-11e8-9e48-e6c054f8af3b.jpg" width="500">
 </p>
-N.B. Rectangular bounding boxes are converted to circular bounding boxes for representation.
+
+`N.B.` Rectangular bounding boxes are converted to circular bounding boxes for representation.
 
 ### Annotation Format
 
@@ -88,3 +98,6 @@ N.B. Rectangular bounding boxes are converted to circular bounding boxes for rep
   . . . . . . . . 
   </annotation>
 ```
+
+[1]: https://ieeexplore.ieee.org/abstract/document/8822896
+[2]: http://ietdl.org/t/kmgztb

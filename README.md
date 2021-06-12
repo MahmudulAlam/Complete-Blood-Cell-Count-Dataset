@@ -10,9 +10,9 @@ The [```complete blood count (CBC)```](https://mahmudulalam.github.io/Complete-B
 [![Download](https://img.shields.io/badge/download-dataset-f20a0a.svg?longCache=true&style=flat)](https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset/archive/master.zip)
 
 ## Paper 
-[![Paper](https://img.shields.io/badge/paper-IETDigiLib-830ceb.svg?longCache=true&style=flat)][1]
+[![Paper](https://img.shields.io/badge/paper-IETDigiLib-830ceb.svg?longCache=true&style=flat)](http://ietdl.org/t/kmgztb) [![Paper](https://img.shields.io/badge/paper-Wiley-282829.svg?longCache=true&style=flat)](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/htl.2018.5098)
 
-The dataset is modified and prepared for this [```paper```](http://ietdl.org/t/kmgztb) for [```automatic identification and counting of blood cells```]( https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells):link: If you use this dataset, please cite this paper: 
+The dataset is modified and prepared for this [```paper```](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/htl.2018.5098) for [```automatic identification and counting of blood cells```]( https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells):link: If you use this dataset, please cite this paper: 
 
 ```
 @article{alam2019machine,

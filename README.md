@@ -14,6 +14,8 @@ The [```complete blood count (CBC)```](https://mahmudulalam.github.io/Complete-B
 
 The dataset is modified and prepared for this [```paper```](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/htl.2018.5098) for [```automatic identification and counting of blood cells```]( https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells):link: If you use this dataset, please cite this paper: 
 
+[***```Machine learning approach of automatic identification and counting of blood cells```***](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/htl.2018.5098)
+
 ```
 @article{alam2019machine,
   title={Machine learning approach of automatic identification and counting of blood cells},
